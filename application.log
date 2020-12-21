@@ -1,0 +1,12 @@
+2020-12-22 00:06:59.440  WARN 17132 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-22 00:06:59.544  WARN 17132 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-22 00:06:59.617  WARN 17132 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-22 00:07:16.307  INFO 17132 --- [restartedMain] c.b.e.EmployeepayrollappApplication      : Starting EmployeepayrollappApplication using Java 15 on LAPTOP-M8PELJBS with PID 17132 (C:\Users\Heros\workspace-spring-tool-suite-4-4.8.1.RELEASE\employeepayrollapp\target\classes started by Heros in C:\Users\Heros\workspace-spring-tool-suite-4-4.8.1.RELEASE\employeepayrollapp)
+2020-12-22 00:07:16.314 DEBUG 17132 --- [restartedMain] c.b.e.EmployeepayrollappApplication      : Running with Spring Boot v2.4.1, Spring v5.3.2
+2020-12-22 00:07:16.315  INFO 17132 --- [restartedMain] c.b.e.EmployeepayrollappApplication      : No active profile set, falling back to default profiles: default
+2020-12-22 00:07:16.736  WARN 17132 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-12-22 00:07:16.826  WARN 17132 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-22 00:07:16.896  WARN 17132 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2020-12-22 00:07:16.990  INFO 17132 --- [restartedMain] c.b.e.EmployeepayrollappApplication      : Started EmployeepayrollappApplication in 0.721 seconds (JVM running for 774.29)
+2020-12-22 00:07:16.993  INFO 17132 --- [restartedMain] c.b.e.EmployeepayrollappApplication      : COMMON
+2020-12-22 00:07:16.993  INFO 17132 --- [restartedMain] c.b.e.EmployeepayrollappApplication      : root
