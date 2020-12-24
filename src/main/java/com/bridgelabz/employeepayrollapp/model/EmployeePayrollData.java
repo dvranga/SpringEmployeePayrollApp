@@ -32,8 +32,12 @@ public class EmployeePayrollData {
 	private String name;
 	private long salary;
 	private String gender;
+	
+	@Column(name = "start_date")
 	private LocalDate startDate;
 	private String note;
+	
+	@Column(name = "profile_pic")
 	private String profilePic;
 	
 	@ElementCollection
@@ -41,8 +45,7 @@ public class EmployeePayrollData {
 	@Column(name = "department")
 	private List<String> departments;
 
-	public EmployeePayrollData(int employeeId, EmployeePayrollDTO employeePayrollDTO) {
-		this.employeeId = employeeId;
+	public EmployeePayrollData(EmployeePayrollDTO employeePayrollDTO) {
 		this.updateEmployeePayrollData(employeePayrollDTO);
 	}	
 	
