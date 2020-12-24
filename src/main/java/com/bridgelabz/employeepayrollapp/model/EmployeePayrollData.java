@@ -44,6 +44,12 @@ public class EmployeePayrollData {
 	@CollectionTable(name = "employee_department", joinColumns = @JoinColumn(name="id"))
 	@Column(name = "department")
 	private List<String> departments;
+	
+
+	public EmployeePayrollData() {
+		super();
+	}
+
 
 	public EmployeePayrollData(EmployeePayrollDTO employeePayrollDTO) {
 		this.updateEmployeePayrollData(employeePayrollDTO);
